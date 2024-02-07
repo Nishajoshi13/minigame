@@ -1,0 +1,38 @@
+.container{
+  height:100%;
+  width:100%;
+  padding:16px;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .text{
+    text-align: center;
+    transform: translate(5px,20px);
+    font-weight: 500;
+    color:#e2008f;
+    font-size:20px;
+    font-style: italic;
+  }
+  .image{
+    height:100%;
+    width: 56%;
+  }
+  .buttoncontainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* padding:17px; */
+    /* color:rgb(247, 6, 151) */
+    column-gap: 102px;
+    margin:19px;
+  }
+  /* .yesbtn{
+    padding:10px;
+  }
+  .nobtn{
+    padding:10px;
+  } */
